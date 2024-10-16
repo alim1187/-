@@ -1,0 +1,167 @@
+@import url(./styles/global.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial,  sans-serif; 
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.img{
+    width: 23px;
+    height: 23px;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    column-gap: 26px;
+}
+button{
+    display: flex;
+    align-items: center;
+    padding: 10px 9px 10px 9px;
+    border: none;
+    border-radius: 8px;
+}
+.greenn{
+    background: #04B90B;
+}
+.green{
+    color:#04B90B;
+}
+
+.text{
+    text-align: center;
+    padding: 33px;
+}
+
+h1{
+    padding: 20px;
+    font-size: 38px;
+}
+.menu{
+    width: 340px;
+    height: 481px;
+}
+.dee{
+    margin-bottom: 20px;
+}
+.Jajangmyeon{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.star{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.Reviews{
+    margin-left: 12px;
+    font-size: 15px;
+}
+.sale{
+    display: flex;
+    align-items: center;
+}
+.gren{
+    color: #04B90B;
+    font-size: 30px;
+}
+.botn{
+    background: #04B90B;
+    color: white;
+    margin-left: 59px;
+}
+
+.line{
+    padding: 60px;
+    display: flex;
+    margin-left: 60px;
+}
+
+.line2{
+    padding: 60px;
+    display: flex;
+    margin-left: 40px;
+}
+
+.strelka{
+    display: none;
+}
+
+@media  (max-width:1100px)  {
+    .menu{
+        width: 285px;
+        height: 384px;
+    }
+}
+@media  (max-width:420px) {
+
+
+
+    .container{
+        width: 420px;
+        margin: 0 auto;
+    }
+
+    .menu{
+        width: 374px;
+        height: 450px;
+    }
+    .non{
+        display: none;
+    }
+
+    .line{
+        flex-direction: column;
+    }
+
+    .line2{
+        flex-direction: column;
+
+    }
+    .text{
+        padding: 40px ;
+        width: 374px;
+        height: 152px;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+    h1{
+        font-size: 18px;
+
+    }
+    .pishka{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .greenn{
+        border-radius: 8px;
+        padding: 6px;
+        width: 328px;
+        height: 74px;
+        font-size: 20px;
+    }
+
+    .img{
+        width: 33px;
+        height: 33px;
+    }
+
+    .strelka{
+        display: block;
+        margin-left: 130px;
+    }
+
+
+    
+}
